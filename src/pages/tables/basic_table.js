@@ -13,23 +13,23 @@ const basic_table = () => {
         />
         <title>Star Admin2 </title>
         {/* plugins:css */}
-        <link rel="stylesheet" href="../../vendors/feather/feather.css" />
+        <link rel="stylesheet" to="../../vendors/feather/feather.css" />
         <link
           rel="stylesheet"
-          href="../../vendors/mdi/css/materialdesignicons.min.css"
+          to="../../vendors/mdi/css/materialdesignicons.min.css"
         />
         <link
           rel="stylesheet"
-          href="../../vendors/ti-icons/css/themify-icons.css"
+          to="../../vendors/ti-icons/css/themify-icons.css"
         />
-        <link rel="stylesheet" href="../../vendors/typicons/typicons.css" />
+        <link rel="stylesheet" to="../../vendors/typicons/typicons.css" />
         <link
           rel="stylesheet"
-          href="../../vendors/simple-line-icons/css/simple-line-icons.css"
+          to="../../vendors/simple-line-icons/css/simple-line-icons.css"
         />
         <link
           rel="stylesheet"
-          href="../../vendors/css/vendor.bundle.base.css"
+          to="../../vendors/css/vendor.bundle.base.css"
         />
         {/* endinject */}
         {/* Plugin css for this page */}
@@ -37,10 +37,10 @@ const basic_table = () => {
         {/* inject:css */}
         <link
           rel="stylesheet"
-          href="../../css/vertical-layout-light/style.css"
+          to="../../css/vertical-layout-light/style.css"
         />
         {/* endinject */}
-        <link rel="shortcut icon" href="../../images/favicon.png" />
+        <link rel="shortcut icon" to="../../images/favicon.png" />
         <div className="container-scroller">
           {/* partial:../../partials/_navbar.html */}
           <nav className="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
@@ -55,15 +55,15 @@ const basic_table = () => {
                 </button>
               </div>
               <div>
-                <a className="navbar-brand brand-logo" href="../../index.js">
+                <Link className="navbar-brand brand-logo" to="../../index.js">
                   <img src="../../images/logo.svg" alt="logo" />
-                </a>
-                <a
+                </Link>
+                <Link
                   className="navbar-brand brand-logo-mini"
-                  href="../../index.js"
+                  to="../../index.js"
                 >
                   <img src="../../images/logo-mini.svg" alt="logo" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="navbar-menu-wrapper d-flex align-items-top">
@@ -407,29 +407,29 @@ const basic_table = () => {
                 role="tablist"
               >
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link active"
                     id="todo-tab"
                     data-bs-toggle="tab"
-                    href="#todo-section"
+                    to="#todo-section"
                     role="tab"
                     aria-controls="todo-section"
                     aria-expanded="true"
                   >
                     TO DO LIST
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     id="chats-tab"
                     data-bs-toggle="tab"
-                    href="#chats-section"
+                    to="#chats-section"
                     role="tab"
                     aria-controls="chats-section"
                   >
                     CHATS
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="tab-content" id="setting-content">
@@ -635,197 +635,197 @@ const basic_table = () => {
             <nav className="sidebar sidebar-offcanvas" id="sidebar">
               <ul className="nav">
                 <li className="nav-item">
-                  <a className="nav-link" href="../../index.js">
+                  <Link className="nav-link" to="../../index.js">
                     <i className="mdi mdi-grid-large menu-icon" />
                     <span className="menu-title">Dashboard</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item nav-category">UI Elements</li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     data-bs-toggle="collapse"
-                    href="#ui-basic"
+                    to="#ui-basic"
                     aria-expanded="false"
                     aria-controls="ui-basic"
                   >
                     <i className="menu-icon mdi mdi-floor-plan" />
                     <span className="menu-title">UI Elements</span>
                     <i className="menu-arrow" />
-                  </a>
+                  </Link>
                   <div className="collapse" id="ui-basic">
                     <ul className="nav flex-column sub-menu">
                       <li className="nav-item">
                         {" "}
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/ui-features/buttons.js"
+                          to="../../pages/ui-features/buttons.js"
                         >
                           Buttons
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
                         {" "}
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/ui-features/dropdowns.js"
+                          to="../../pages/ui-features/dropdowns.js"
                         >
                           Dropdowns
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
                         {" "}
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/ui-features/typography.js"
+                          to="../../pages/ui-features/typography.js"
                         >
                           Typography
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="nav-item nav-category">Forms and Datas</li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     data-bs-toggle="collapse"
-                    href="#form-elements"
+                    to="#form-elements"
                     aria-expanded="false"
                     aria-controls="form-elements"
                   >
                     <i className="menu-icon mdi mdi-card-text-outline" />
                     <span className="menu-title">Form elements</span>
                     <i className="menu-arrow" />
-                  </a>
+                  </Link>
                   <div className="collapse" id="form-elements">
                     <ul className="nav flex-column sub-menu">
                       <li className="nav-item">
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/forms/basic_elements.js"
+                          to="../../pages/forms/basic_elements.js"
                         >
                           Basic Elements
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     data-bs-toggle="collapse"
-                    href="#charts"
+                    to="#charts"
                     aria-expanded="false"
                     aria-controls="charts"
                   >
                     <i className="menu-icon mdi mdi-chart-line" />
                     <span className="menu-title">Charts</span>
                     <i className="menu-arrow" />
-                  </a>
+                  </Link>
                   <div className="collapse" id="charts">
                     <ul className="nav flex-column sub-menu">
                       <li className="nav-item">
                         {" "}
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/charts/chart.js"
+                          to="../../pages/charts/chart.js"
                         >
                           ChartJs
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     data-bs-toggle="collapse"
-                    href="#tables"
+                    to="#tables"
                     aria-expanded="false"
                     aria-controls="tables"
                   >
                     <i className="menu-icon mdi mdi-table" />
                     <span className="menu-title">Tables</span>
                     <i className="menu-arrow" />
-                  </a>
+                  </Link>
                   <div className="collapse" id="tables">
                     <ul className="nav flex-column sub-menu">
                       <li className="nav-item">
                         {" "}
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/tables/basic_table.js"
+                          to="../../pages/tables/basic_table.js"
                         >
                           Basic table
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     data-bs-toggle="collapse"
-                    href="#icons"
+                    to="#icons"
                     aria-expanded="false"
                     aria-controls="icons"
                   >
                     <i className="menu-icon mdi mdi-layers-outline" />
                     <span className="menu-title">Icons</span>
                     <i className="menu-arrow" />
-                  </a>
+                  </Link>
                   <div className="collapse" id="icons">
                     <ul className="nav flex-column sub-menu">
                       <li className="nav-item">
                         {" "}
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/icons/mdi.js"
+                          to="../../pages/icons/mdi.js"
                         >
                           Mdi icons
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="nav-item nav-category">pages</li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     data-bs-toggle="collapse"
-                    href="#auth"
+                    to="#auth"
                     aria-expanded="false"
                     aria-controls="auth"
                   >
                     <i className="menu-icon mdi mdi-account-circle-outline" />
                     <span className="menu-title">User Pages</span>
                     <i className="menu-arrow" />
-                  </a>
+                  </Link>
                   <div className="collapse" id="auth">
                     <ul className="nav flex-column sub-menu">
                       <li className="nav-item">
                         {" "}
-                        <a
+                        <Link
                           className="nav-link"
-                          href="../../pages/samples/login.js"
+                          to="../../pages/samples/login.js"
                         >
                           {" "}
                           Login{" "}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="nav-item nav-category">help</li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="http://bootstrapdash.com/demo/star-admin2-free/docs/documentation.js"
+                    to="http://bootstrapdash.com/demo/star-admin2-free/docs/documentation.js"
                   >
                     <i className="menu-icon mdi mdi-file-document" />
                     <span className="menu-title">Documentation</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

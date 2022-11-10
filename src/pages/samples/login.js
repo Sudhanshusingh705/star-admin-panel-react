@@ -13,23 +13,23 @@ const login = () => {
         />
         <title>Star Admin2 </title>
         {/* plugins:css */}
-        <link rel="stylesheet" href="../../vendors/feather/feather.css" />
+        <link rel="stylesheet" to="../../vendors/feather/feather.css" />
         <link
           rel="stylesheet"
-          href="../../vendors/mdi/css/materialdesignicons.min.css"
+          to="../../vendors/mdi/css/materialdesignicons.min.css"
         />
         <link
           rel="stylesheet"
-          href="../../vendors/ti-icons/css/themify-icons.css"
+          to="../../vendors/ti-icons/css/themify-icons.css"
         />
-        <link rel="stylesheet" href="../../vendors/typicons/typicons.css" />
+        <link rel="stylesheet" to="../../vendors/typicons/typicons.css" />
         <link
           rel="stylesheet"
-          href="../../vendors/simple-line-icons/css/simple-line-icons.css"
+          to="../../vendors/simple-line-icons/css/simple-line-icons.css"
         />
         <link
           rel="stylesheet"
-          href="../../vendors/css/vendor.bundle.base.css"
+          to="../../vendors/css/vendor.bundle.base.css"
         />
         {/* endinject */}
         {/* Plugin css for this page */}
@@ -37,10 +37,10 @@ const login = () => {
         {/* inject:css */}
         <link
           rel="stylesheet"
-          href="../../css/vertical-layout-light/style.css"
+          to="../../css/vertical-layout-light/style.css"
         />
         {/* endinject */}
-        <link rel="shortcut icon" href="../../images/favicon.png" />
+        <link rel="shortcut icon" to="../../images/favicon.png" />
         <div className="container-scroller">
           <div className="container-fluid page-body-wrapper full-page-wrapper">
             <div className="content-wrapper d-flex align-items-center auth px-0">
@@ -70,12 +70,12 @@ const login = () => {
                         />
                       </div>
                       <div className="mt-3">
-                        <a
+                        <Link
                           className="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn"
-                          href="../../index.html"
+                          to="../../index.js"
                         >
                           SIGN IN
-                        </a>
+                        </Link>
                       </div>
                       <div className="my-2 d-flex justify-content-between align-items-center">
                         <div className="form-check">
@@ -102,9 +102,9 @@ const login = () => {
                       </div>
                       <div className="text-center mt-4 fw-light">
                         Don't have an account?{" "}
-                        <a href="register.html" className="text-primary">
+                        <Link to="register.js" className="text-primary">
                           Create
-                        </a>
+                        </Link>
                       </div>
                     </form>
                   </div>

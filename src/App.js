@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <Settingpanel />
       <Slidebar />
+      <charts />
       <Footer />
     </Router>
   );

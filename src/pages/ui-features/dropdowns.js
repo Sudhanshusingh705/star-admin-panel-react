@@ -755,7 +755,7 @@ const dropdowns = () => {
                         {" "}
                         <Link
                           className="nav-link"
-                          to="../../pages/tables/basic-table.js"
+                          to="../../pages/tables/basic_table.js"
                         >
                           Basic table
                         </Link>
