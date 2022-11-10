@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const documentation = () => {
   return (
     <div>
-      <>
+     
         {/* Required meta tags */}
         <meta charSet="utf-8" />
         <meta
@@ -117,7 +117,7 @@ const documentation = () => {
         {/* endinject */}
         {/* Custom js for this page*/}
         {/* End custom js for this page*/}
-      </>
+      
     </div>
   );
 }
