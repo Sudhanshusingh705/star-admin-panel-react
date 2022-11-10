@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const documentation = () => {
   return (
     <div>
-     
         {/* Required meta tags */}
         <meta charSet="utf-8" />
         <meta
