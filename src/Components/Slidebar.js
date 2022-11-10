@@ -6,7 +6,7 @@ const Slidebar = () => {
       <nav className="sidebar sidebar-offcanvas" id="sidebar">
         <ul className="nav">
           <li className="nav-item">
-            <a className="nav-link" href="index.html">
+            <a className="nav-link" href="index.js">
               <i className="mdi mdi-grid-large menu-icon" />
               <span className="menu-title">Dashboard</span>
             </a>
@@ -28,16 +28,13 @@ const Slidebar = () => {
               <ul className="nav flex-column sub-menu">
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link" href="pages/ui-features/buttons.html">
+                  <a className="nav-link" href="pages/ui-features/buttons.js">
                     Buttons
                   </a>
                 </li>
                 <li className="nav-item">
                   {" "}
-                  <a
-                    className="nav-link"
-                    href="pages/ui-features/dropdowns.html"
-                  >
+                  <a className="nav-link" href="pages/ui-features/dropdowns.js">
                     Dropdowns
                   </a>
                 </li>
@@ -45,7 +42,7 @@ const Slidebar = () => {
                   {" "}
                   <a
                     className="nav-link"
-                    href="pages/ui-features/typography.html"
+                    href="pages/ui-features/typography.js"
                   >
                     Typography
                   </a>
@@ -69,10 +66,7 @@ const Slidebar = () => {
             <div className="collapse" id="form-elements">
               <ul className="nav flex-column sub-menu">
                 <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="pages/forms/basic_elements.html"
-                  >
+                  <a className="nav-link" href="pages/forms/basic_elements.js">
                     Basic Elements
                   </a>
                 </li>
@@ -95,7 +89,7 @@ const Slidebar = () => {
               <ul className="nav flex-column sub-menu">
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link" href="pages/charts/chartjs.html">
+                  <a className="nav-link" href="pages/charts/chartjs.js">
                     ChartJs
                   </a>
                 </li>
@@ -118,7 +112,7 @@ const Slidebar = () => {
               <ul className="nav flex-column sub-menu">
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link" href="pages/tables/basic-table.html">
+                  <a className="nav-link" href="pages/tables/basic-table.js">
                     Basic table
                   </a>
                 </li>
@@ -141,7 +135,7 @@ const Slidebar = () => {
               <ul className="nav flex-column sub-menu">
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link" href="pages/icons/mdi.html">
+                  <a className="nav-link" href="pages/icons/mdi.js">
                     Mdi icons
                   </a>
                 </li>
@@ -165,9 +159,31 @@ const Slidebar = () => {
               <ul className="nav flex-column sub-menu">
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link" href="pages/samples/login.html">
+                  <a className="nav-link" href="pages/samples/login.js">
                     {" "}
                     Login{" "}
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a
+              className="nav-link"
+              data-bs-toggle="collapse"
+              href="#auth"
+              aria-expanded="false"
+              aria-controls="auth"
+            >
+              <i className="menu-icon mdi mdi-account-multiple" />
+              <span className="menu-title">Connect  With  User</span>
+              <i className="menu-arrow" />
+            </a>
+            <div className="collapse" id="auth">
+              <ul className="nav flex-column sub-menu">
+                <li className="nav-item">
+                  {" "}
+                  <a className="nav-link" href="#">
+                    {" "}
+                    User Redirect page{" "}
                   </a>
                 </li>
               </ul>
@@ -177,7 +193,7 @@ const Slidebar = () => {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="http://bootstrapdash.com/demo/star-admin2-free/docs/documentation.html"
+              href="http://bootstrapdash.com/demo/star-admin2-free/docs/documentation.js"
             >
               <i className="menu-icon mdi mdi-file-document" />
               <span className="menu-title">Documentation</span>
@@ -185,7 +201,7 @@ const Slidebar = () => {
           </li>
         </ul>
       </nav>
-       </div>
+    </div>
   );
 }
 

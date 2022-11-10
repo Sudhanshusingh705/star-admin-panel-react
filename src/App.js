@@ -1,17 +1,23 @@
-import { BrowserRouter as Router,Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Settingpanel from "./Components/Settingpanel";
 import Slidebar from "./Components/Slidebar";
+import chartjs from "./Components/chartjs";
 import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Settingpanel />
-      <Slidebar />
-      <Footer />
-    </Router>
+    <div>
+      <BrowserRouter>
+        
+          <Navbar/>
+          <Settingpanel />
+          <Slidebar />
+          <chartjs/>
+          <Footer />
+        
+      </BrowserRouter>
+    </div>
   );
 }
 
