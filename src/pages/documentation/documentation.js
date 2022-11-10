@@ -13,46 +13,46 @@ const documentation = () => {
         />
         <title>Star Admin2 Dashboard</title>
         {/* plugins:css */}
-        <link rel="stylesheet" href="../../vendors/feather/feather.css" />
+        <link rel="stylesheet" to="../../vendors/feather/feather.css" />
         <link
           rel="stylesheet"
-          href="../../vendors/mdi/css/materialdesignicons.min.css"
+          to="../../vendors/mdi/css/materialdesignicons.min.css"
         />
         <link
           rel="stylesheet"
-          href="../../vendors/ti-icons/css/themify-icons.css"
+          to="../../vendors/ti-icons/css/themify-icons.css"
         />
-        <link rel="stylesheet" href="../../vendors/typicons/typicons.css" />
+        <link rel="stylesheet" to="../../vendors/typicons/typicons.css" />
         <link
           rel="stylesheet"
-          href="../../vendors/simple-line-icons/css/simple-line-icons.css"
+          to="../../vendors/simple-line-icons/css/simple-line-icons.css"
         />
         <link
           rel="stylesheet"
-          href="../../vendors/css/vendor.bundle.base.css"
+          to="../../vendors/css/vendor.bundle.base.css"
         />
         {/* endinject */}
         {/* plugin css for this page */}
         <link
           rel="stylesheet"
-          href="../template/vendors/codemirror/codemirror.css"
+          to="../template/vendors/codemirror/codemirror.css"
         />
         <link
           rel="stylesheet"
-          href="../template/vendors/codemirror/ambiance.css"
+          to="../template/vendors/codemirror/ambiance.css"
         />
         <link
           rel="stylesheet"
-          href="../template/vendors/pwstabs/jquery.pwstabs.min.css"
+          to="../template/vendors/pwstabs/jquery.pwstabs.min.css"
         />
         {/* End plugin css for this page */}
         {/* inject:css */}
         <link
           rel="stylesheet"
-          href="../../css/vertical-layout-light/style.css"
+          to="../../css/vertical-layout-light/style.css"
         />
         {/* endinject */}
-        <link rel="shortcut icon" href="../../../../images/favicon.png" />
+        <link rel="shortcut icon" to="../../../../images/favicon.png" />
         <div className=" container-scroller">
           <div className="container-fluid page-body-wrapper full-page-wrapper">
             <div className="main-panel w-100  documentation">
@@ -60,10 +60,10 @@ const documentation = () => {
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-12 pt-5">
-                      <a className="btn btn-primary" href="../../index.html">
+                      <Link className="btn btn-primary" to="../../index.js">
                         <i className="ti-home me-2" />
                         Back to home
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="row pt-5 mt-5">
@@ -73,18 +73,18 @@ const documentation = () => {
                         The detailed documentation of Star Admin2 Template is
                         provided at
                         <Link
-                          href="http://bootstrapdash.com/demo/star-admin-pro/docs/documentation.html"
+                          to="http://bootstrapdash.com/demo/star-admin-pro/docs/documentation.js"
                           target="_blank"
                           className="text-danger d-block text-truncate"
                         >
-                          http://bootstrapdash.com/demo/star-admin-pro/docs/documentation.html
+                          http://bootstrapdash.com/demo/star-admin-pro/docs/documentation.js
                         </Link>
                       </h3>
                       <h4 className="mt-4 fw-light text-primary">
                         In case you want to refer the documentation file, it is
                         available at
                         <span className="text-danger">
-                          /docs/documentation.html
+                          /docs/documentation.js
                         </span>
                         in the downloaded folder
                       </h4>
