@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Slidebar = () => {
   return (
-    <div>
+    <div style={{ border: "3px solid red" }}>
       <nav className="sidebar sidebar-offcanvas" id="sidebar">
         <ul className="nav">
           <li className="nav-item">
@@ -174,7 +174,7 @@ const Slidebar = () => {
               aria-controls="auth"
             >
               <i className="menu-icon mdi mdi-account-multiple" />
-              <span className="menu-title">Connect  With  User</span>
+              <span className="menu-title">Connect Your Account</span>
               <i className="menu-arrow" />
             </a>
             <div className="collapse" id="auth">
@@ -203,6 +203,6 @@ const Slidebar = () => {
       </nav>
     </div>
   );
-}
+};
 
 export default Slidebar;
