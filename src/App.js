@@ -1,24 +1,16 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Settingpanel from "./Components/Settingpanel";
-import Slidebar from "./Components/Slidebar";
-import chartjs from "./Components/chartjs";
-import Footer from "./Components/Footer";
+// project import
+import Routes from 'routes';
+import ThemeCustomization from 'themes';
+import ScrollTop from 'components/ScrollTop';
 
-function App() {
-  return (
-    <div>
-      <BrowserRouter>
-        
-          <Navbar/>
-          <Settingpanel />
-          <Slidebar />
-          <chartjs/>
-          <Footer />
-        
-      </BrowserRouter>
-    </div>
-  );
-}
+// ==============================|| APP - THEME, ROUTER, LOCAL  ||============================== //
+
+const App = () => (
+    <ThemeCustomization>
+        <ScrollTop>
+            <Routes />
+        </ScrollTop>
+    </ThemeCustomization>
+);
 
 export default App;
